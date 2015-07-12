@@ -1,0 +1,33 @@
+Abstract: Fetch all the information of Data/Parity striper from the cluster 
+
+usage:
+python DEC_query.py -g [Goid Number]
+
+
+
+YIJUNZHU-M-400M:python-scripts yijunzhu$ python DEC_query.py -g 0x15534cc56912
+debug:: 172.22.125.229
+debug:: ['PARITY_STRIPE', 'StripeNumber', '1', '(8:2)']
+debug:: 172.22.125.226
+debug:: ['PARITY_STRIPE', 'StripeNumber', '0', '(8:2)']
+debug:: 172.22.125.227
+debug:: ['DATA_STRIPE', 'StripeNumber', '2', '(8:2)']
+debug:: 172.22.125.225
+debug:: ['DATA_STRIPE', 'StripeNumber', '3', '(8:2)']
+debug:: 172.22.125.16
+debug:: ['DATA_STRIPE', 'StripeNumber', '1', '(8:2)']
+debug:: 172.22.125.210
+debug:: ['DATA_STRIPE', 'StripeNumber', '0', '(8:2)']
+debug:: 172.22.125.210
+debug:: ['DATA_STRIPE', 'StripeNumber', '1', '(8:2)']
+debug:: 172.22.125.210
+debug:: ['DATA_STRIPE', 'StripeNumber', '2', '(8:2)']
+debug:: 172.22.125.210
+debug:: ['DATA_STRIPE', 'StripeNumber', '3', '(8:2)']
+debug:: 172.22.125.210
+debug:: ['PARITY_STRIPE', 'StripeNumber', '0', '(8:2)']
+debug:: 172.22.125.210
+debug:: ['PARITY_STRIPE', 'StripeNumber', '1', '(8:2)']
+DEC Mode:: (8:2)
+~~~~~~~~~~~~Data Stripe~~~~~~~~~~~~~
+Object 0x15534cc56912 cps=1
